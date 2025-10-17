@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q1 Project | Miguel Velarde</title>
+  <style>
+    /* --- BASIC PAGE STYLE --- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f6fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* --- HEADER --- */
+    header {
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    /* --- NAVIGATION --- */
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #1e90ff;
+    }
+
+    /* --- SECTIONS --- */
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #1e90ff;
+      margin-bottom: 15px;
+    }
+
+    /* --- ABOUT ME --- */
+    #about img {
+      display: block;
+      margin: 20px auto;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* --- MY WORKS --- */
+    #works img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    ul {
+      margin-left: 40px;
+    }
+
+    /* --- CONTACT FORM --- */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0a70d1;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Hello, I'm Miguel Velarde</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#works">My Works</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <!-- ABOUT ME SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="https://scontent.fmnl8-4.fna.fbcdn.net/v/t1.15752-9/553756730_1058141566246845_6615438476478981750_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1VrPa1N8mbAQ7kNvwE_jYCi&_nc_oc=Adk2-8MxjAl3OcN6US6dVulwuPL6-662KN2TDqeXqsOxTByT6db0R-3vkliEXtwFBbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl8-4.fna&oh=03_Q7cD3gFThLcW8Zom95OVKa1enFMcpevjRYatxIyJg5sOzSNa0Q&oe=69130946" alt="My Photo">
+    <p>Hi! I’m Miguel, a student and aspiring web developer. I enjoy learning how to build websites using HTML and CSS. I believe creativity and technology can work together to make amazing projects that inspire people.</p>
+  </section>
+
+  <!-- MY WORKS SECTION -->
+  <section id="works">
+    <h2>My Works</h2>
+    <img src="https://chat.google.com/u/2/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEUdO%2BN6w%2FBWToYULWfH4dmsgfK1K%2FFJpsb5Cipbam8u4Rfq9JSblOQOpvjai4HjOARCuBUsquNSBejKrcwm5ywHCoOzthwCVkeV5gN5k2lOncJKyKnuARZikFRYo3%2BrpeVXBJSi8QbvCPH8DcS9McPbWWugHVQ01k75j3PAeg9kYw0dtMZTcLUC9Y9xL2%2FYJqmEq7PstCPYFufy4FhhqTmhIjlzKsqqeQw5GXSUPrke3DTRtIRuw7B%2BQN8Y7ZFHiwiCH%2Bk%2Bu29HYTAinx2QiAW%2BWmOVjwcDlYkXgdf3OhqDueStwV%2FxlAnMSyHj3aqJcC96TepFTP94bCVK%2Fw99TBYsmmf0xuGPEWe16WTPov9FzGDAExpUbwEyscR5Z5Bkx6fN5qPLHynUHwlX3GbJ0yAaCqNohRqtEz4Jsz7IhVhGYnjT0cyIzRfZ%2BDgAOxJTZV4kI55MNluNIUHb2Xene9Jl9WWYqg6vbvowbqQKPZaafMjUys8RhPTBbUWvnPkebOohWWM43plSCFA%2FZLCkmnyqXhgCcENmFRc97Akl5kQDrzWRE5NMbZW%2BQRBSRbDsi6x2&allow_caching=true&authuser=2&sz=w1920-h912-rw" alt="My First Project">
+
+
+    <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/556847146_1596026551390398_2028572339393283383_n.png?stp=dst-png_p526x395&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=kc4dIt-TXFYQ7kNvwGXZOHH&_nc_oc=Adkp4LbinxhHKzVqKY7Xz8s4hG1CcxV_hmYtVtijLfgMjUQbPSxwf9zfQjMu3PO27iA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=03_Q7cD3gGAmtjOSn6OAi9WfblGUKVLOyRG5J4EoEj7zRLmqD2A7Q&oe=69132FDD">
+    <p>Here are some examples of what I’ve done so far:</p>
+    <ul>
+      <li>HTML & CSS Practice</li>
+      <li>Creating Basic Web Layouts</li>
+      <li>Formatting and Styling Text</li>
+
+
+    </ul>
+    <p><a href="https://www.w3schools.com" target="_blank">Visit Example Link</a></p>
+  </section>
+
+  <!-- CONTACT ME SECTION -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Your Name:</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Your Email:</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Message:</label>
+      <textarea rows="4" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Miguel Velarde. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
